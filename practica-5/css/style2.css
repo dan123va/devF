@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: blueviolet;
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.container div {
+  background-color: orangered;
+  color: white;
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+} 
+
+
+
+
+/* @media only screen and (max-width: 879px){
+  body {
+    background-color: pink;
+  }
+}
+
+@media only screen and (min-width: 879px){
+  body {
+    background-color: darkgoldenrod;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+  body {
+    background-color: black;
+  }
+} */

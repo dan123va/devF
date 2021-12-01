@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: blueviolet;
+}
+
+.caja {
+  width: 80px;
+  height: 40px;
+  background-color: coral;
+  border: 1px solid black;
+}
+
+.izquierda {
+  float: left;
+}
+
+.derecha {
+  float: right;
+  background-color: aquamarine;
+  width: 100px;
+}
+
+.container {
+  background-color: antiquewhite;
+}
+
+.container div {
+  float: left;
+}
+
+.kata {
+  background-color: mediumslateblue;
+}
+
+.information {
+  width: 782px;
+  height: 150px;
+  background-color: cornflowerblue;
+  color: white;
+}
+ 
+.float-attribute {
+  width: 900px;
+  margin: auto;
+  clear: both;
+}
+
+.container .information p {
+  font-size: 8px;
+  padding-top: 20px;
+  padding-left: 10px;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: brown;
+  float: left;
+  margin-left: 5px;
+  border-radius: 100px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: brown;
+}

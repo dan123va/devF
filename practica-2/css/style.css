@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+}
+
+body {
+  /* background-color: gray; */
+  /* 
+    background-image: url('/practica-2/img/imagen-clase.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+    background-position: right top;
+  */
+}
+
+.sub-oso {
+  /* color: darkmagenta; */
+  /* color: rgb(192, 23, 243); */
+  color: #75AF65;
+}
+
+#tigre {
+  color: darkgreen;
+  margin-bottom: 15px;
+  font-size: 80px;
+}
+
+.contendor-tigre {
+  margin: 90px;
+}
+
+p {
+  font-size: 25px;
+}

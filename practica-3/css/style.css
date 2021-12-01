@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: blue;
+  height: 30px;
+}
+
+.container div {
+  display: inline-block;
+}
+
+.left-section div {
+  border: 1px solid violet;
+  display: block;
+}
+
+.kata {
+  background-color: blueviolet;
+}
+
+.information {
+  border: 1px solid violet;
+  width: 600px;
+  height: 200px;
+}
+
+footer {
+  border: 1px solid violet;
+  text-align: center;
+}
+
+li {
+  font-size: 15px;
+}
